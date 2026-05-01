@@ -3,8 +3,11 @@ from random import *
 app = Flask(__name__)
 @app.route("/")
 def home():
-    random_number = randint(1, 100)
-    text = f"Your random number is: {random_number}"
-    return text
+    text = """
+    Day 1: I made a new website. webflakes.qzz.io, it will contain this website and my projects (since i cannot get anymore domains.)
+    Day 2: I made a Random Number Generator, i made it with simple HTML and a bit of CSS. I learned about Jinja because of this.
+    
+    
+    """
 if __name__ == "__main__":
     app.run()
